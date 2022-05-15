@@ -18,7 +18,7 @@ public class PostTest {
 
                 .then()
                 .statusCode(200)
-                .contentType(ContentType.JSON)
+                .contentType(ContentType.TEXT)
                 .body("data", equalTo("johnatan"));
     }
 }
